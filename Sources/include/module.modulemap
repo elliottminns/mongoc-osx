@@ -1,0 +1,5 @@
+module CMongoC [system] {
+    header "mongoc.h"
+    link "mongoc"
+    export *
+}
